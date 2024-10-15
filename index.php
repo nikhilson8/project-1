@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>HTML Framework</title>
+<meta name="description" content="," />
+
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/ace-responsive-menu.css" rel="stylesheet" type="text/css" />
+
+<link href="css/animate.css" rel="stylesheet" type="text/css" />
+
+<!---fonts-->
+<link href="css/fontawesome-5.15.3.css" rel="stylesheet" type="text/css" />
+<!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> -->
+
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- slider -->
+<link href="plugins/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+<link href="plugins/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
+
+<!-- <link rel="stylesheet" href="plugins/venobox/venobox.css" type="text/css" media="screen" /> -->
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery.3.3.1.min.js"></script>
+
+</head>
+
+<body>
+
+<header>  
+
+<div class="container">
+    <div class="inner_container">
+        <div class="logo">
+            <a href="index.php"><img src="images/logo.png" alt="" /></a>
+        </div>
+        <nav>
+            <!-- Menu Toggle btn-->
+            <div class="menu-toggle">
+                <h3>Menu</h3>
+                <button type="button" id="menu-btn">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Responsive Menu Structure-->
+            <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+            <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                <li><a href="./"><span class="title">Home</span></a></li>
+                <li><a href="#"><span class="title">Menu 1</span></a></li>
+                <li><a href="#"><span class="title">Menu 2</span></a></li>
+                <li><a href="#"><span class="title">Menu 3</span></a></li>
+                <li><a href="#"><span class="title">Menu 4</span></a></li>
+                <li><a href="#"><span class="title">Menu 5</span></a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+</header>
+<!-- End of Responsive Menu -->
+
+
+<div id="main">
+
+<div class="hero">
+    <div class="img_box">
+        <img src="images/hero.jpg">
+    </div>
+    <div class="text_box">
+        <div class="heading">Company Name – <br>Your Partner in Personal<br> Care Innovation</div>
+        <p>At [Company Name], we bring a unique blend of technical expertise, dedication, and innovation to the world of personal care specialty ingredients. With an unwavering commitment to quality and service, we help brands create cutting-edge products that meet evolving </p>
+    </div>
+</div>
+<!-- hero end -->
+
+<div class="img_txt_boxes_wrapper">
+
+    <div class="img_txt_box">
+        <div class="container">
+            <div class="inner_container">
+                <div class="col-sm-6">
+                    <div class="img_box">
+                        <img src="images/our-expertise.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text_box">
+                        <div class="heading">Our Expertise</div>
+                        <div class="text">
+                            <p>We are more than just ingredient suppliers. Our deep knowledge of formulation science and product development enables us to provide customized solutions for your personal care formulations. Whether you're developing skin care, hair care, or body care products, we have the expertise to elevate your formulations to new levels of performance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="img_txt_box">
+        <div class="container">
+            <div class="inner_container">
+                <div class="col-sm-6">
+                    <div class="img_box">
+                        <img src="images/our-expertise.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text_box">
+                        <div class="heading">Why Choose Us?</div>
+                        <div class="text">
+                            <ul>
+                                <li><b>Technical Expertise:</b> Our team of scientists and experts work hand in hand with your R&D teams to ensure formulations are effective, safe, and innovative.</li>
+                                <li><b>Fast Service:</b> We understand the importance of speed in product development. That's why we pride ourselves on delivering solutions with unmatched efficiency, ensuring your projects stay on track.</li>
+                                <li><b>Commitment to Quality:</b> Quality is at the heart of everything we do. From ingredient sourcing to the final product, our strict quality control measures guarantee only the best materials for your formulations.</li>
+                                <li><b>Innovation-Driven:</b> The beauty and personal care landscape is always evolving, and so are we. We constantly innovate to provide you with the latest ingredients and technologies that give your brand a competitive edge.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="img_txt_box">
+        <div class="container">
+            <div class="inner_container">
+                <div class="col-sm-6">
+                    <div class="img_box">
+                        <img src="images/our-expertise.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text_box">
+                        <div class="heading">Our Solutions</div>
+                        <div class="text">
+                            <p>From emulsifiers, stabilizers, and active ingredients to tailored blends, [Your Company Name] offers a wide range of high-performance ingredients designed to meet your specific needs. We stay ahead of market trends and consumer demands, ensuring that you have access to the latest innovations in beauty & personal care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="img_txt_box">
+        <div class="container">
+            <div class="inner_container">
+                <div class="col-sm-6">
+                    <div class="img_box">
+                        <img src="images/our-expertise.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text_box">
+                        <div class="heading">Partner With Us</div>
+                        <div class="text">
+                            <p>When you choose [Your Company Name], you're not just getting a supplier — you're gaining a partner who is invested in your success. Our personalized approach, attention to detail, and relentless pursuit of excellence ensure that we deliver not only ingredients but also value.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="img_txt_box">
+        <div class="container">
+            <div class="inner_container">
+                <div class="col-sm-6">
+                    <div class="img_box">
+                        <img src="images/our-expertise.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text_box">
+                        <div class="heading">Innovation Lab – Accelerating Product Development for your Brand</div>
+                        <div class="text">
+                            <p>At [Your Company Name], our Innovation Lab is dedicated to helping brands—from ambitious startups to global powerhouses—bring their ideas to life with speed, precision, and creativity. We provide customized solutions and end-to-end product development that fast-track your journey from concept to market, allowing you to stay ahead in an ever-evolving personal care industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- img_txt_boxes_wrapper end -->
+
+<div class="section_two">
+    <div class="container">
+        <div class="inner_container">
+            
+            <div class="col-sm-4">
+                <div class="box">
+                    <div class="img_box">
+                        <img src="images/1.jpg">
+                    </div>
+                    <div class="text_box">
+                        <div class="title">Fast-Tracking Innovation</div>
+                        <p>Speed to market is crucial in today’s competitive landscape, and our Innovation Lab is built to deliver results quickly without compromising on quality. By leveraging our deep technical expertise and cutting-edge research, we streamline the product development process, enabling faster innovation cycles and quicker launches. Whether you're looking to introduce a breakthrough ingredient or create a completely new formulation, we help you launch innovative products faster than ever before.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="box">
+                    <div class="img_box">
+                        <img src="images/1.jpg">
+                    </div>
+                    <div class="text_box">
+                        <div class="title">Customized Solutions for Every Brand</div>
+                        <p>No two brands are the same, and we understand that your product needs are unique. Our Innovation Lab excels in offering tailored solutions that align with your brand’s vision and consumer expectations. Whether you're a startup looking for that first hero product or an established brand expanding your portfolio, we offer bespoke formulations that cater to your specific market, brand identity, and consumer needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="box">
+                    <div class="img_box">
+                        <img src="images/1.jpg">
+                    </div>
+                    <div class="text_box">
+                        <div class="title">End-to-End Development</div>
+                        <p>From concept to commercialization, we provide comprehensive support at every stage of product development. Our end-to-end development process includes:</p>
+                        <ul>
+                            <li><b>Trend and Market Insights:</b> We start by analyzing the latest consumer trends and market data, ensuring your product is not only innovative but also relevant and in demand.</li>
+                            <li><b>Formulation and Testing:</b> Our team of experts works closely with you to develop formulations that deliver on performance, aesthetics, and safety. We conduct rigorous testing to ensure quality, stability, and efficacy.</li>
+                            <li><b>Packaging and Design:</b> We collaborate with trusted vendors to offer packaging solutions that complement your product, ensuring it's as visually appealing as it is effective.</li>
+                            <li><b>Regulatory and Compliance:</b> We help navigate the complexities of regulatory requirements, ensuring your product meets all industry standards and guidelines for a smooth launch.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="box">
+                    <div class="img_box">
+                        <img src="images/1.jpg">
+                    </div>
+                    <div class="text_box">
+                        <div class="title">Building the Market</div>
+                        <p>At [Your Company Name], we believe in not just creating products but also helping to build the market. We partner with brands to understand the <b>core needs of both the brand and the consumer</b>, ensuring every product we develop aligns with consumer desires and market trends. By focusing on what truly matters to your target audience, we help you carve out a niche in the market and build long-lasting success.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="box">
+                    <div class="img_box">
+                        <img src="images/1.jpg">
+                    </div>
+                    <div class="text_box">
+                        <div class="title">For Startups and Established Brands Alike</div>
+                        <p>Whether you’re a <b>startup</b> seeking to make a bold entrance into the market or a <b>well-established brand</b> looking to maintain your competitive edge, our Innovation Lab is here to help. Our flexible, scalable solutions cater to businesses of all sizes, offering the expertise, innovation, and agility needed to bring your vision to life.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clr"></div>
+
+        </div>
+    </div>
+</div>
+<!-- section_two end -->
+
+</div>
+<!-- main end -->
+
+<footer>
+    <div class="container">
+        <div class="inner_container">
+            
+            <div class="col-sm-3">
+                <div class="logo">
+                    <a href="./">
+                        <img src="images/logo.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="menu_links">
+                    <ul>
+                        <li><a href="./">Home</a></li>
+                        <li><a href="#">Menu 6</a></li>
+                        <li><a href="#">Menu 2</a></li>
+                        <li><a href="#">Menu 3</a></li>
+                        <li><a href="#">Menu 4</a></li>
+                        <li><a href="#">Menu 5</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="last_line">&copy; <?php echo date('Y'); ?> Company. All Rights Reserved. Disclaimer | Privacy & Cookies Statement</div>
+</footer>
+
+<!--sticky header-->
+<!-- <script src="js/classie.js" type="text/javascript"></script>
+<script>
+function init() {
+window.addEventListener('scroll', function(e){
+  var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+  shrinkOn = 50,
+  header = document.querySelector("header");
+  if (distanceY > shrinkOn) {
+  classie.add(header,"smaller");
+  } else {
+  if (classie.has(header,"smaller")) {
+    classie.remove(header,"smaller");
+  }
+  }
+});
+}
+window.onload = init();
+</script> -->
+<script type="text/javascript" src="js/common.js"></script>
+<script src='js/jquery.easing.1.3.js'></script>
+
+
+<script src="js/ace-responsive-menu.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#respMenu").aceResponsiveMenu({
+        resizeWidth: '768', // Set the same in Media query       
+        animationSpeed: 'fast', //slow, medium, fast
+        accoridonExpAll: false //Expands all the accordion menu on click
+    });
+});
+</script>
+
+<!-- <script type="text/javascript" src="plugins/venobox/venobox.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    /* default settings */
+    $('.venobox').venobox({
+        framewidth: '500px', 
+    }); 
+});
+</script> -->
+
+
+
+
+<script src='js/wow.min.js'></script>
+<script>
+new WOW().init();
+</script>
+
+<!--slider-->
+<script src="plugins/owl-carousel/owl.carousel.js"></script>
+<script src="plugins/owl-carousel/owl-content-animation.js"></script>
+
+</body>
+</html>
