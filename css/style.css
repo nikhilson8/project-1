@@ -5,7 +5,7 @@
 	#Media Queries
 	#Font-Face */
 :root{
-	--heading-font: "Biryani", sans-serif;
+	--heading-font: "Caveat", cursive;;
 }
 html, body, #wrapper {
 	height: 100%;
@@ -197,11 +197,11 @@ header .inner_container .ace-responsive-menu > li > a span{
 
 .heading{
 	font-family: var(--heading-font);
-	font-size: 36px;
+	font-size: 42px;
 	line-height: 1.2em;
 	color: #000;
 	padding: 0 0 15px;
-	font-weight: 200;
+	font-weight: 700;
 }
 .title{
 	font-family: var(--heading-font);
@@ -237,14 +237,20 @@ header .inner_container .ace-responsive-menu > li > a span{
 }
 
 /*img_txt_boxes_wrapper*/
+.img_txt_boxes_wrapper{
+	padding: 50px 0;
+}
 .img_txt_boxes_wrapper .img_txt_box .inner_container{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	padding: 0 0 100px;
+	padding: 50px 0;
 }
 .img_txt_boxes_wrapper .img_txt_box:first-child .inner_container{
-	padding-top: 100px;
+/*	padding-top: 100px;*/
+}
+.img_txt_boxes_wrapper .img_txt_box:nth-child(even){
+	background: #f3f3f4;
 }
 .img_txt_boxes_wrapper .img_txt_box:nth-child(even) .inner_container{
 	display: flex;
@@ -316,13 +322,13 @@ footer .last_line{
 	top: 0;
 	width: 100%;
 	height: calc(203px + (274px / 2));
-	background: url(../images/why-choose-us.png) no-repeat;
+	background: url(../images/why-choose-us.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	z-index: -1;
 }
 .why_choose_us .heading{
-	color: #fff;
+	color: #000;
 	padding: 80px 0;
 }
 .why_choose_us .info_boxes{
