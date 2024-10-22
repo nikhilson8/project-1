@@ -199,6 +199,42 @@ header.smaller .logo {
     padding: 8px 0!important;
 }
 
+
+.contact_us_page .sec_one .upper_sec{
+	padding: 5vw 0 0 0;
+}
+.contact_us_page .sec_one .upper_sec .text_box{
+	width: calc(100% - 10vw);
+	margin: auto auto 5vw auto;
+	padding: 5vw 5vw calc(5vw - 15px);
+}
+.contact_us_page .sec_one .upper_sec .text_form_wrap{
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+.contact_us_page .sec_one .upper_sec .text_form_wrap .left_info{
+	width: 100%;
+}
+.contact_us_page .sec_one .upper_sec .text_form_wrap .right_info{
+	width: 100%;
+	padding: 0 5vw;
+}
+.contact_us_page .sec_one .upper_sec .text_form_wrap .right_info ul.social_icons{
+	padding: 5vw 0 5vw 5px;
+}
+.contact_us_page .sec_one .upper_sec .text_form_wrap .left_info{
+	padding: 10vw 5vw calc(10vw - 15px) 5vw;
+}
+.contact_us_page .sec_one .lower_sec{
+	padding: 0 0 40px;
+
+}
+.contact_us_page .sec_one .lower_sec .map_wrapper{
+	height: 100vw;
+	width: 100%;
+	padding: 0;
+}
+
 }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
