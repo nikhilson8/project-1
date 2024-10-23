@@ -5,7 +5,8 @@
 	#Media Queries
 	#Font-Face */
 :root{
-	--heading-font: "Caveat", cursive;;
+/*	--heading-font: "Caveat", cursive;*/
+	--heading-font: "Biryani", sans-serif;
 }
 html, body, #wrapper {
 	height: 100%;
